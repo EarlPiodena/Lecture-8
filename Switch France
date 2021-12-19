@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "What is the capital of France?" << endl;
+    char capital;
+    cin >> capital;
+
+    switch (capital)
+    {
+    case 'p':
+    case 'P':
+    case 'P2':
+        {
+            cout << "You have entered the correct answer" << endl;
+
+            break;
+        }
+        default:
+        {
+            cout << "Invalid Input";
+            break;
+        }
+    }
+}

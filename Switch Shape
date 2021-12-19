@@ -1,0 +1,47 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x;
+    cout << "Enter the Number of sides of a shape that you want to input: " << endl;
+    cin >> x;
+
+    switch (x) {
+    case 3:
+        cout << "This is a Triangle." << endl;
+        break;
+
+    case 4:
+        cout << "This is a Square." << endl;
+        break;
+
+    case 5:
+        cout << "This is a Pentagon." << endl;
+        break;
+
+    case 6:
+        cout << "This is a Hexagon." << endl;
+        break;
+
+    case 7:
+        cout << "This is a Heptagon." << endl;
+        break;
+
+    case 8:
+        cout << "This is a Octagon." << endl;
+        break;
+
+    case 9:
+        cout << "This is a Nonagon." << endl;
+        break;
+
+    case 10:
+        cout << "This is a Decagon." << endl;
+        break;
+
+    default:
+        cout << "Invalid Input";
+
+    }
+}

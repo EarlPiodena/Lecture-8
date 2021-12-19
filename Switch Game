@@ -2,37 +2,31 @@
 using namespace std;
 int main()
 {
-    int a, b;
-    int input;
-    cin >> input;
-
     cout << "Would you like to continue? (Y/N): " << endl;
 
-    cout << "Enter Y to continue" << endl;
+    char input;
+    cin >> input;
 
-    cout << "Enter N to quit" << endl;
-
-    switch (input) {
+    switch (input)
+    {
     case 'Y':
     case 'y':
     {
-        cout << "The game will continue" << endl;
+        cout << "The game will continue";
         break;
     }
     case 'N':
     case 'n':
     {
-        cout << "The game will exit" << endl;
+        cout << "The game will exit";
         break;
     }
-    default: 
-			{
-				cout << "Invalid Input";
-			}
 
-			}
-		cin.get(); 
-		return 0;
-	}
-
+    default:
+    {
+        cout << "Invalid Input";
+    }
+    cin.get();
+    return 0;
+    }
 }
